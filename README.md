@@ -54,7 +54,7 @@ Ends the program.
 
 If you want to create a standalone executable for the project, run the following command:
 
-    pyinstaller --onefile --name SonozakiSisters_Post_Update_Setup main.py
+    pyinstaller --onefile --name SonozakiSisters_Post_Update_Setup --icon icon.ico main.py
 
 After building, the executable will be located in the dist folder.
 
